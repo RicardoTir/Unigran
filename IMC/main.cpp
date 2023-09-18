@@ -17,17 +17,17 @@ int main() {
     imc = peso / (altura * altura);
 
     // Exibe o resultado
-    cout << "Seu Índice de Massa Corporal (IMC) é: " << imc << endl;
+    cout << "Seu Indice de Massa Corporal (IMC) e: " << imc << endl;
 
     // Classifica o IMC
     if (imc < 18.5) {
-        cout << "Você está abaixo do peso ideal." << endl;
+        cout << "Voca esta abaixo do peso ideal." << endl;
     } else if (imc < 24.9) {
-        cout << "Seu peso está dentro da faixa considerada saudável." << endl;
+        cout << "Seu peso esta dentro da faixa considerada saudavel." << endl;
     } else if (imc < 29.9) {
-        cout << "Voce está com sobrepeso." << endl;
+        cout << "Voce esta com sobrepeso." << endl;
     } else {
-        cout << "Você está obeso." << endl;
+        cout << "Voce esta obeso." << endl;
     }
 
     return 0;
